@@ -69,9 +69,9 @@
                                     </excludes>
                                     <limits>
                                         <limit>
-                                            <counter>LINE</counter>
+                                            <counter>BRANCH</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>50%</minimum>
+                                            <minimum>1%</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
