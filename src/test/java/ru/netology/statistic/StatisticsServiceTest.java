@@ -10,7 +10,7 @@ public class StatisticsServiceTest {
     void findMax() {
         StatisticsService service = new StatisticsService();
 
-        long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 18, 6, 11, 11, 12, 13};
+        long[] incomesInBillions = {12, 5, 13, 8, 14, 5, 3, 18, 16, 11, 17, 12, 13};
         long expected = 18;
         long actual = service.findMax(incomesInBillions);
 
